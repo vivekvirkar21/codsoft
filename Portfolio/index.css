@@ -1,0 +1,205 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #252525;
+    
+}
+.navigation{
+    background-color: #292929;
+    height: 50px;
+    width: 100%;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 65% 35%;
+
+}
+
+.nava{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+}
+a{
+    color: aliceblue;
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.a{
+  margin-top: 15px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 10%;
+}
+p{  margin: 35% 5% 20% 10%;
+    font-size: 20px;
+    color: aliceblue;
+    width: 80%;
+}
+.N{
+    color: aqua;
+    font-size: 25px;
+}
+span{
+    color: yellow;
+    text-shadow: 2px 3px 4px;
+}
+button{
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(37, 243, 116);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;    
+}
+.img{
+    height: 30%;
+    margin: 15% 20% 15% 40%;
+   
+}
+
+
+#About{
+    margin-top: -1450px;
+    padding-top:20px;
+    color: aliceblue;
+}
+div>h1{
+    text-align: center;  
+}
+.about-para p{  
+    margin: 2% 10% 5% 10%;
+    width: 80%;
+    font-style:normal;
+    font-weight: 55px;
+    font-size: 25px;   
+}
+.about-self{
+display: grid;
+grid-template-columns: 33% 33% 33%;
+justify-content: center;
+align-items: center;
+}
+.about-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+    text-align: center;
+    width: 100%;  
+}
+.about-article p{
+    margin: 5%;
+}
+.about-article img{
+    width: 70px;
+    height: 70px;
+}
+#mail img{
+    height: 75px;
+    width: 90px;
+    margin-top: 10px;
+}
+
+
+#Services{
+    margin-top: 15%;
+    color: rgb(75, 252, 252); 
+    padding-top: 20px; 
+}
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:60px;
+    margin: 10% 10% 5% 10%;
+   justify-content: center;
+}
+.services-article{
+    background: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-bottom: 4px solid transparent;
+}
+.services-article h2{
+    margin-left: 10%;
+}
+.services-article img{
+    width: 100px;
+    margin-left: 25%;
+}
+.services-article:hover{
+    border-color: var(--color-primary);
+}
+
+.services-article p{
+    margin: 5%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+#Contact{
+    margin: 15% 5%;
+    color: aliceblue;
+}
+form{
+    width: 60%;
+    margin:5% 15% 15% 15%;
+    position: absolute;
+}
+.form-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:40px
+}
+form input{
+    padding: 10px;
+    margin-bottom: 30px;
+    color: black;
+    border: none;
+    box-shadow: 0 3px  brown;
+    transition: .4s ease;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+}
+form input:focus{
+    border-bottom: 5px solid rgb(250, 192, 84);
+    color:magenta;
+    box-shadow: none;
+}
+.form-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.form-bottom textarea{
+    width: 100%;
+    padding: 9px;
+    height: 100px;
+    resize: none;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+
+footer{
+    margin-top: 500px;
+    text-align: center;
+    color: aqua;
+    font-size: 30px;
+}
